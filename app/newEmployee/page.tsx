@@ -39,7 +39,7 @@ const Page = () => {
 
   return (
     <div className={classes}>
-      <div className="w-full max-w-[860px] flex flex-col items-center justify-center mx-auto">
+      <div className="w-full px-[10%] md:px-0 md:max-w-[860px] flex flex-col items-center justify-center mx-auto">
         <Tabs
           steps={steps}
           currentStep={currentStep}
