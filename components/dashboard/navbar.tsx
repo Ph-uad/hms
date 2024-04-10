@@ -5,9 +5,9 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between text-primary-foreground bg-primary px-[10%] py-4">
-      <div>
+      <Link href="/">
         <h3>Logo</h3>
-      </div>
+      </Link>
 
       <Link href="/userProfile" className="flex items-center gap-2 cursor-pointer">
         <BellAlertIcon className="w-6" />
